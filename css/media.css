@@ -1,0 +1,130 @@
+@media (max-width: 1000px){
+  .menu-btn{
+    display: block;
+  }
+  .menu__list{
+    display: none;
+    position: absolute;
+    z-index: 2;
+    top: 75px;
+    left: 0;
+    right: 0;
+    width: 100%;
+    background-color: #fff;
+  }
+  .menu__list-item{
+    display: block;
+    text-align: center;
+    border-top: 1px solid #b9b9b9;
+  }
+  .menu__list-item + .menu__list-item{
+    margin-left: 0;
+    
+  }
+  .menu__list-link{
+    width: 100%;
+    padding: 25px 0;
+  }
+  .slider__nav{
+    display: none;
+  }
+  .items{
+    padding: 0 0 20px;
+  }
+  .items__inner{
+    display: block;
+  }
+  .item {
+    width: 85%;
+    margin: 0px auto;
+    display: block;
+    padding: 20px 0 30px;
+  }
+  .item + .item{
+    border-top: 1px solid #b9b9b9;
+  }
+  .item__title{
+    padding-top: 10px;
+  }
+  .works__inner{
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+  }
+  .works__item{
+    width: 330px;
+    margin: 10px 10px 30px 10px;
+  }
+  .works__item img{
+    width: 100%;
+  }
+  .footer__inner{
+    padding: 0 20px;
+  }
+  .footer__title{
+    margin-top: 25px;
+  }
+
+}
+@media (max-width: 720px){
+  .item {
+    padding: 13px 0 20px;
+  }
+  .works__item{
+    width: 225px;
+    margin: 5px 10px 25px 10px;
+  }
+  .footer__inner{
+    display: block;
+    padding: 25px 0 5px 0;
+  }
+  .footer__inner h4{
+    padding-top: 0;
+  }
+  .footer__inner>div{
+    margin: 0 auto 22px;
+    width: 85%;
+  }
+  .footer__title{
+    margin: 0;
+    padding: 10px 0;
+  }
+  .about__text{
+    padding-bottom: 12px;
+  }
+  .twitter__text{
+    padding-bottom: 15px;
+  }
+  .twitter__text span{
+    padding-top: 3px;
+  }
+  .contact__text{
+    padding-bottom: 12px;
+  }
+  .footer__inner > div + div{
+    margin-left: auto;
+  }
+}
+@media (max-width: 510px){
+  .slider__for-text{
+    width: 300px;
+    left: 5%;
+  }
+  .item__title {
+    padding-top: 0px;
+    width: 350px;
+  }
+  .works__item{
+    width: 350px;
+  }
+}
+@media (max-width: 510px){
+  .slider__for-text{
+    width: 92%;
+    left: 13px;
+    bottom: 10px;
+  }
+  .item__title {
+    width: auto;
+  }
+}
